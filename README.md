@@ -5,3 +5,4 @@ This example selects all list items and then uses different filters to select a 
 # Components that make the app run
 
 * The .filter() method finds the last list item with a class attribute whose value is hot. It then removes that value from the class attribute.
+* The :not() selector is used within the jQuery selector to find li elements without a value of hot in their class attribute and adds a value of cool.
